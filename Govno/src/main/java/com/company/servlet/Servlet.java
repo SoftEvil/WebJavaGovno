@@ -55,9 +55,11 @@ public class Servlet extends HttpServlet {
 
         User user = new User();
         user.setId(Integer.parseInt(req.getParameter("id")));
-        user.setLastName(req.getParameter("lastName"));
-        user.setName(req.getParameter("name"));
-        user.setPhone(req.getParameter("phone"));
+        user.setFIO(req.getParameter("FIO"));
+        user.setAddress(req.getParameter("Address"));
+        user.setPhone(req.getParameter("Phone"));
+        user.setEmail(req.getParameter("Email"));
+        user.setComments(req.getParameter("Comments"));
 
 
         query(user, user.getId() > 0 ? "update" : "save");

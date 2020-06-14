@@ -10,14 +10,20 @@ public class User {
     @Column(name = "id", nullable = false)
     private int id;
 
-    @Column(name = "lastName")
-    private String lastName;
+    @Column(name = "FIO")
+    private String FIO;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "Address")
+    private String Address;
 
-    @Column(name = "phone")
-    private String phone;
+    @Column(name = "Phone")
+    private String Phone;
+
+    @Column(name = "Email")
+    private String Email;
+
+    @Column(name = "Comments")
+    private String Comments;
 
 
 
@@ -29,20 +35,20 @@ public class User {
         this.id = id;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getFIO() {
+        return FIO;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setFIO(String FIO) {
+        this.FIO = FIO;
     }
 
-    public String getName() {
-        return name;
+    public String getAddress() {
+        return Address;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAddress(String Address) {
+        this.Address = Address;
     }
 
     public String getPhone() {
@@ -51,6 +57,22 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String Email) {
+        this.Email = Email;
+    }
+
+    public String getComments() {
+        return Comments;
+    }
+
+    public void setComments(String Comments) {
+        this.Comments = Comments;
     }
 
 

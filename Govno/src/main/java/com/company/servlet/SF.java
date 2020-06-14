@@ -21,7 +21,7 @@ public class SF {
 
         cfg.setProperty("hibernate.connection.url", "jdbc:sqlserver://localhost\\Username;database=User;CharacterSet=UTF-8");
         cfg.setProperty("hibernate.connection.username", "User");
-        cfg.setProperty("hibernate.connection.password", "2020");
+        cfg.setProperty("hibernate.connection.password", "123");
         cfg.setProperty("hibernate.hbm2ddl.auto", "update");
 
         StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
