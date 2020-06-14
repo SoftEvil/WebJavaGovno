@@ -21,7 +21,7 @@
     <h1 align="center">Hello Govno</h1><br>
 <form class="form-inline">
     <button type="button" class="btn btn-outline-success create">Добавить</button>
-    <input type="searchfield" class="form-control" id="InputSearch" placeholder="Search..." onkeyup="tableSearch()">
+    <input type="searchfield" class="form-control" id="SearchText" placeholder="Search...">
 </form>
 <Table class="table" id="info-table">
     <tr>
